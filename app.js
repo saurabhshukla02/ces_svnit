@@ -250,6 +250,6 @@ app.get('/ces/articles/metro-man-of-india-Sreedharan', (req, res)=>{
 
 
 // START THE SERVER
-app.listen(port, ()=>{
+app.listen(process.env.PORT || port, ()=>{
     console.log(`The application started sucessfully at port: ${port}`);
 })
