@@ -21,7 +21,7 @@ app.set('views', path.join(__dirname, 'views')); //Set the views directory
 app.get("/", (req, res)=>{
     
     const params = {
-        'title': 'Home | CES',
+        'title': 'Civil Engineering Society, NIT Surat',
     };
     res.status(200).render('home.ejs', params);
 })
@@ -33,7 +33,7 @@ app.get("/", (req, res)=>{
 app.get("/events/kaizen-2020", (req, res)=>{
 
     const params = {
-        'title': 'Kaizen-2020 | CES Event',
+        'title': 'Kaizen-2020 | CES Event, NIT Surat',
     }
     res.status(200).render('kaizen-2020.ejs', params);
 })
@@ -41,7 +41,7 @@ app.get("/events/kaizen-2020", (req, res)=>{
 app.get("/events/kaizen-2020/tech-events", (req, res)=>{
 
     const params = {
-        'title': 'Technical Events | Kaizen-2020',
+        'title': 'Technical Events | Kaizen-2020, CES NIT Surat',
     }
     res.status(200).render('kaizen-2020-tech-events.ejs', params);
 })
@@ -49,7 +49,7 @@ app.get("/events/kaizen-2020/tech-events", (req, res)=>{
 app.get("/events/kaizen-2020/managerial-events", (req, res)=>{
 
     const params = {
-        'title': 'Managerial Events | Kaizen-2020',
+        'title': 'Managerial Events | Kaizen-2020, CES NIT Surat',
     }
     res.status(200).render('kaizen-2020-managerial-events.ejs', params);
 })
@@ -57,7 +57,7 @@ app.get("/events/kaizen-2020/managerial-events", (req, res)=>{
 app.get("/events/kaizen-2020/informal-events", (req, res)=>{
 
     const params = {
-        'title': 'Informal Events | Kaizen-2020',
+        'title': 'Informal Events | Kaizen-2020, CES NIT Surat',
     }
     res.status(200).render('kaizen-2020-informal-events.ejs', params);
 })
@@ -75,7 +75,7 @@ app.get("/events/kaizen-2020/informal-events", (req, res)=>{
 app.get("/events/kaizen-2021", (req, res)=>{
 
     const params = {
-        'title': 'Kaizen-2021 | CES Event',
+        'title': 'Kaizen-2021 | CES Event, NIT Surat',
     }
     res.status(200).render('kaizen-2021.ejs', params);
 })
@@ -83,7 +83,7 @@ app.get("/events/kaizen-2021", (req, res)=>{
 app.get("/events/kaizen-2021/tech-events", (req, res)=>{
 
     const params = {
-        'title': 'Kaizen-2021 | CES Event',
+        'title': 'Technical Events | Kaizen-2021, CES NIT Surat',
     }
     res.status(200).render('kaizen-2021-tech-events.ejs', params);
 })
@@ -91,7 +91,7 @@ app.get("/events/kaizen-2021/tech-events", (req, res)=>{
 app.get("/events/kaizen-2021/managerial-events", (req, res)=>{
 
     const params = {
-        'title': 'Kaizen-2021 | CES Event',
+        'title': 'Managerial Events | Kaizen-2021, CES NIT Surat',
     }
     res.status(200).render('kaizen-2021-managerial-events.ejs', params);
 })
@@ -99,7 +99,7 @@ app.get("/events/kaizen-2021/managerial-events", (req, res)=>{
 app.get("/events/kaizen-2021/informal-events", (req, res)=>{
 
     const params = {
-        'title': 'Kaizen-2021 | CES Event',
+        'title': 'Informal Events | Kaizen-2021, CES NIT Surat',
     }
     res.status(200).render('kaizen-2021-informal-events.ejs', params);
 })
@@ -117,7 +117,7 @@ app.get("/events/kaizen-2021/informal-events", (req, res)=>{
 app.get('/people/core-committee-2020-21', (req, res)=>{
 
     const params = {
-        'title': 'Core committee 2020-21 | CES'
+        'title': 'Core committee 2020-21 | CES SVNIT'
     }
     res.status(200).render('core-members-2020-21.ejs', params);
 })
@@ -128,7 +128,7 @@ app.get('/people/core-committee-2020-21', (req, res)=>{
 app.get('/people/core-committee-2019-20', (req, res)=>{
 
     const params = {
-        'title': 'Core committee 2019-20 | CES'
+        'title': 'Core committee 2019-20 | CES SVNIT'
     }
     res.status(200).render('core-members-2019-20.ejs', params);
 })
@@ -145,7 +145,7 @@ app.get('/people/core-committee-2019-20', (req, res)=>{
 app.get('/ces/articles', (req, res)=>{
 
     const params = {
-        'title': 'Articles | CES',
+        'title': 'Articles | CES NIT Surat',
 
         'article1title': 'Atal Tunnel, World’s longest highway tunnel opened in Himachal Pradesh',
         'article1writer': 'Abhay Singh Tomar',
