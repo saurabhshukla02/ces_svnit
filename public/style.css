@@ -888,7 +888,7 @@ body {
   background-position: top;
   position: relative;
  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); 
-  clip-path: polygon(0 0, 100% 0, 100% 75vw, 0 100%);  
+  clip-path: polygon(0 0, 100% 0, 100% 134vw, 0 100%);  
 }
 
 
@@ -1290,21 +1290,96 @@ body {
   padding: 25rem 0;
   margin-top: -20vh;
 }
+
+
+
+
+
+.vision-section {
+  padding: 20rem 0;
+  background-image: linear-gradient(
+      to right bottom,
+      #e9ecef, #ddddddd3
+    ),
+    url(../public/img/civilbg.jpg);
+  background-size: cover;
+  transform: skewY(-7deg);
+  margin-top: -10rem;
+  margin-bottom: 12rem;
+}
+.vision-section > * {
+  transform: skewY(7deg);
+}
+
+.vision-para-container p{
+  color: rgb(1, 1, 116);
+}
+
+
+
+
+
+.mission-text-container ul li{
+  font-size: 1.6rem;
+  margin: 25px 0;
+  list-style: none;
+  background-image: url(../public/img-tech/check-box-png.png);
+  background-repeat: no-repeat;
+	background-position: left center;
+	background-size:4%;
+  padding: 0 0 0 10%;
+}
+
+
+
+
+.faculty-section {
+  padding: 20rem 0;
+  background-image: linear-gradient(
+      to right bottom,
+      #e9ecef, #dddddde4
+    ),
+    url(../public/img/bg-image.jpg);
+  background-size: cover;
+  transform: skewY(-7deg);
+  margin-top: -10rem;
+  margin-bottom: 12rem;
+}
+
+
+.faculty-section > * {
+  transform: skewY(7deg);
+}
+
+.fac-advisors-info h2,
+.fac-advisors-info h4,
+.fac-advisors-info h5{
+  color: #121212;
+}
+
+
+
+
+
+
 .section-features {
   padding: 20rem 0;
   background-image: linear-gradient(
       to right bottom,
       #e9ecef, #ddddddd6
     ),
-    url(../public/img/civilbg1.jpg);
+    url();
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -10rem;
   margin-bottom: 12rem;
 }
+
+
 .section-features > * {
   transform: skewY(7deg);
 }
+
 .section-tours {
   background-color: #f7f7f7;
   padding: 25rem 0 15rem 0;
