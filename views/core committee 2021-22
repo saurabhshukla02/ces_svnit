@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <meta name="author" content="Saurabh Shukla">
+    <meta name="description" content="Here's the list of all core-members of Civil Engineering Society, NIT Surat 2020-21">
+    <meta name="keywords" content="core-members 2019-20, Civil Engineering Society, SVNIT Surat">
+
+
+    <link rel="shortcut icon" type="image/png" href="../../public/img-tech/favicon.ico">
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="../public/team-design.css">
+
+    <title><%=title %></title>
+</head>
+<body>
+
+
+<section class="team">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-12">
+                <h6 class="description">Core committee members 2020-21</h6>
+                <div class="row pt-md">
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 profile">
+                        <div class="img-box">
+                            <img src="../public/img-team/ritik.jpg" class="img-responsive">
+                            <ul class="text-center">
+                                <a href="#">
+                                    <li><i class="fa fa-facebook"></i></li>
+                                </a>
+                                <a href="#">
+                                    <li><i class="fa fa-twitter"></i></li>
+                                </a>
+                                <a href="#">
+                                    <li><i class="fa fa-linkedin"></i></li>
+                                </a>
+                            </ul>
+                        </div>
+                        <h1>Yash Shah</h1>
+                        <h2>Head</h2>
+                        <p>(M) +91-9574447307</p>
+                    </div>
+                   
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+<section>
+    <div class="container">
+        <div class="row">
+            <center>
+                <div class="home-button" style="margin: 0 5% 18% 5%;">
+                    <a class="btn btn-success" href="/" role="button">Go to home</a>
+                </div>
+            </center>
+        </div>
+    </div>
+</section>
