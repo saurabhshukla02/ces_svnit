@@ -116,7 +116,7 @@ app.get('/people/core-committee-2021-22', (req, res)=>{
     const params = {
         'title': 'Core committee 2021-22 | CES SVNIT'
     }
-    res.status(200).render('core-members-2021-22.ejs', params);
+    res.status(200).render('core-committee-2021-22.ejs', params);
 })
 
 
