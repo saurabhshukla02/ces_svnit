@@ -134,7 +134,13 @@ app.get('/people/core-committee-2019-20', (req, res)=>{
 })
 
 
+app.get('/people/core-committee-2020-21', (req, res)=>{
 
+    const params = {
+        'title': 'Core committee 2020-21 | CES SVNIT'
+    }
+    res.status(200).render('core-members-2020-21.ejs', params);
+})
 
 
 
