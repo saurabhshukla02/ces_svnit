@@ -111,6 +111,14 @@ app.get("/events/kaizen-2021/informal-events", (req, res)=>{
 
 
 
+app.get('/people/core-committee-2021-22', (req, res)=>{
+
+    const params = {
+        'title': 'Core committee 2021-22 | CES SVNIT'
+    }
+    res.status(200).render('core-members-2021-22.ejs', params);
+})
+
 
 
 
@@ -133,14 +141,6 @@ app.get('/people/core-committee-2019-20', (req, res)=>{
     res.status(200).render('core-members-2019-20.ejs', params);
 })
 
-
-app.get('/people/core-committee-2020-21', (req, res)=>{
-
-    const params = {
-        'title': 'Core committee 2020-21 | CES SVNIT'
-    }
-    res.status(200).render('core-members-2020-21.ejs', params);
-})
 
 
 
