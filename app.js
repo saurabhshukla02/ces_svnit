@@ -152,6 +152,11 @@ app.get('/ces/articles', (req, res)=>{
 
     const params = {
         'title': 'Articles | CES NIT Surat',
+        
+        'article7title': 'Smart Building: Transforming the Built Environment',
+        'article7writer': 'Aniket Maru, A Sree Valli, Yashvi Unadkat',
+        'article7introduction': '',
+        'article7date': 'December 20, 2021',
 
         'article1title': 'Atal Tunnel, World’s longest highway tunnel opened in Himachal Pradesh',
         'article1writer': 'Abhay Singh Tomar',
@@ -184,6 +189,17 @@ app.get('/ces/articles', (req, res)=>{
         'article6date': 'February 9, 2021',
     }
     res.status(200).render('articles.ejs', params);
+})
+
+
+app.get("/ces/articles/smart-building", (req, res)=>{
+
+    const params = {
+        'title': 'Smart Building: Transforming the Built Environment',
+        'writer': 'Aniket Maru, A Sree Valli, Yashvi Unadkat',
+        'date': 'December 20, 2021'
+    }
+    res.status(200).render('smart-building.ejs', params);
 })
 
 
