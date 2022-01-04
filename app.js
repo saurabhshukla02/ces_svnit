@@ -153,6 +153,11 @@ app.get('/ces/articles', (req, res)=>{
     const params = {
         'title': 'Articles | CES NIT Surat',
         
+        'article8title': 'Smart Wastewater Management System: Reliable and Sustainable',
+        'article8writer': 'Abhishek Tiwari, Sriya Rao',
+        'article8introduction': '',
+        'article8date': 'January 4, 2022',
+        
         'article7title': 'Smart Building: Transforming the Built Environment',
         'article7writer': 'Aniket Maru, A Sree Valli, Yashvi Unadkat',
         'article7introduction': '',
@@ -191,6 +196,16 @@ app.get('/ces/articles', (req, res)=>{
     res.status(200).render('articles.ejs', params);
 })
 
+
+app.get("/ces/articles/smart-waste", (req, res)=>{
+
+    const params = {
+        'title': 'Smart Wastewater Management System: Reliable and Sustainable',
+        'writer': 'Abhishek Tiwari, Sriya Rao',
+        'date': 'January 4, 2022'
+    }
+    res.status(200).render('smart-wastewater.ejs', params);
+})
 
 app.get("/ces/articles/smart-building", (req, res)=>{
 
