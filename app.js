@@ -154,9 +154,9 @@ app.get('/ces/articles', (req, res)=>{
         'title': 'Articles | CES NIT Surat',
         
         'article9title': 'Smart Irrigation Systems',
-        'article8writer': 'Shubham Kumar',
-        'article8introduction': '',
-        'article8date': 'January 18, 2022',
+        'article9writer': 'Shubham Kumar',
+        'article9introduction': '',
+        'article9date': 'January 18, 2022',
         
         'article8title': 'Smart Wastewater Management System: Reliable and Sustainable',
         'article8writer': 'Abhishek Tiwari, Sriya Rao',
