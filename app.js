@@ -153,6 +153,11 @@ app.get('/ces/articles', (req, res)=>{
     const params = {
         'title': 'Articles | CES NIT Surat',
         
+        'article10title': 'Smart Transportation Systems',
+        'article10writer': 'Pushpendra Bhakar, Ganesh, Kripal Singh, Bhavesh Jangid',
+        'article10introduction': '',
+        'article10date': 'January 31, 2022',
+        
         'article9title': 'Smart Irrigation Systems',
         'article9writer': 'Shubham Kumar',
         'article9introduction': '',
@@ -199,6 +204,17 @@ app.get('/ces/articles', (req, res)=>{
         'article6date': 'February 9, 2021',
     }
     res.status(200).render('articles.ejs', params);
+})
+
+
+app.get("/ces/articles/smart-transport", (req, res)=>{
+
+    const params = {
+        'title': 'Smart Transportation Systems',
+        'writer': 'Pushpendra Bhakar, Ganesh, Kripal Singh, Bhavesh Jangid',
+        'date': 'January 31, 2022'
+    }
+    res.status(200).render('smart-transport.ejs', params);
 })
 
 
