@@ -153,6 +153,11 @@ app.get('/ces/articles', (req, res)=>{
     const params = {
         'title': 'Articles | CES NIT Surat',
         
+        'article11title': 'Construction Management',
+        'article11writer': 'Tanisha Jain, Ved Patel, Dixit Singhal',
+        'article11introduction': '',
+        'article11date': 'Februray 20, 2022',
+        
         'article10title': 'Smart Transportation Systems',
         'article10writer': 'Pushpendra Bhakar, Ganesh, Kripal Singh, Bhavesh Jangid',
         'article10introduction': '',
@@ -204,6 +209,17 @@ app.get('/ces/articles', (req, res)=>{
         'article6date': 'February 9, 2021',
     }
     res.status(200).render('articles.ejs', params);
+})
+
+
+app.get("/ces/articles/construction-manage", (req, res)=>{
+
+    const params = {
+        'title': 'Construction Management',
+        'writer': 'Tanisha Jain, Ved Patel, Dixit Singhal',
+        'date': 'Februray 20, 2022'
+    }
+    res.status(200).render('construction-manage.ejs', params);
 })
 
 
