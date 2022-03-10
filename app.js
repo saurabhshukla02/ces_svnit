@@ -153,6 +153,11 @@ app.get('/ces/articles', (req, res)=>{
     const params = {
         'title': 'Articles | CES NIT Surat',
         
+        'article12title': 'Infrastructure Development Over the Years',
+        'article12writer': 'Vibha Elsa, Sakshi Bhushan, Arogya Tiwari ',
+        'article12introduction': '',
+        'article12date': 'March 10, 2022',
+        
         'article11title': 'Construction Management',
         'article11writer': 'Tanisha Jain, Ved Patel, Dixit Singhal',
         'article11introduction': '',
@@ -209,6 +214,16 @@ app.get('/ces/articles', (req, res)=>{
         'article6date': 'February 9, 2021',
     }
     res.status(200).render('articles.ejs', params);
+})
+
+app.get("/ces/articles/infra", (req, res)=>{
+
+    const params = {
+        'title': 'Infrastructure Development Over the Years',
+        'writer': 'Vibha Elsa, Sakshi Bhushan, Arogya Tiwari',
+        'date': 'March 10, 2022'
+    }
+    res.status(200).render('infra.ejs', params);
 })
 
 
